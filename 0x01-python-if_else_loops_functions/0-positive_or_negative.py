@@ -7,5 +7,4 @@ elif number == 0:
     print('{:d}'.format(number), "is zero")
 elif number < 0:
     print('{:d}'.format(number), "is negative")
-else
-exit    
+else (exit)   
