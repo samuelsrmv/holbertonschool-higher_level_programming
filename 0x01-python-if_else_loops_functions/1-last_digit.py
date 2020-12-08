@@ -15,3 +15,4 @@ elif last == 0:
     print("{} {:d} is {:d} {}".format(str0, number, last, str2))
 elif last < 6:
     print("{} {:d} is {:d} {}".format(str0, number, last, str3))
+    
