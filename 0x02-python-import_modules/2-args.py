@@ -17,4 +17,3 @@ if __name__ == "__main__":
         print("{:d} arguments:".format(long - 1))
 
     print_arg(long)
-    
