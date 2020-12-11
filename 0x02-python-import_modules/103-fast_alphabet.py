@@ -1,3 +1,4 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
-    print("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+    import string
+    print(string.ascii_uppercase)
