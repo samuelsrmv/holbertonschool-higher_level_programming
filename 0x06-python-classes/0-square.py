@@ -1,3 +1,7 @@
 #!/usr/bin/python3
-class Samu:
+"0-square.py define"
+
+class Square:
+    """Class Samu
+    """
     pass
