@@ -1,0 +1,162 @@
+The 2-matrix_divided module
+======================
+This is an example text file in StructuredText format.  First import matrix_divided from the 2-matrix_divided module:
+
+>>> matrix_divided = __import__('2-matrix_divided').matrix_divided
+ 
+Base_matrix1
+---------------------------------------------
+>>> matrix = [
+...     [1, 2, 3],
+...     [4, 5, 6]
+... ]
+
+>>> matrix_divided(matrix, 2)
+[[0.5, 1.0, 1.5], [2.0, 2.5, 3.0]]
+
+>>> matrix_divided(matrix, 0)
+Traceback (most recent call last):
+      ...
+ZeroDivisionError: division by zero
+
+Base_matrix3
+---------------------------------------------
+>>> matrix = [
+...     [1, 2, 3],
+...     [4, 5, 6]
+... ]
+
+>>> matrix_divided(matrix, 3.14)
+[[0.32, 0.64, 0.96], [1.27, 1.59, 1.91]]
+
+Invalid Arguments
+-----------------
+>>> matrix_divided(matrix, 'a')
+Traceback (most recent call last):
+      ...
+TypeError: div must be a number
+
+>>> matrix_divided(matrix, [1, 3, 4])
+Traceback (most recent call last):
+      ...
+TypeError: div must be a number
+
+>>> matrix_divided(matrix, ('tup', 2))
+Traceback (most recent call last):
+      ...
+TypeError: div must be a number
+
+>>> matrix_divided("Hello", 0)
+Traceback (most recent call last):
+      ...
+TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+>>> matrix_divided(('tup', 2), 1)
+Traceback (most recent call last):
+      ...
+TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+BASE_MATRIX4
+---------------------------------------------
+>>> matrix = [
+...  {1: "ll"}
+... ]
+
+>>> matrix_divided(matrix, 2)
+Traceback (most recent call last):
+      ...
+TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+BASE_MATRIX6
+---------------------------------------------
+>>> matrix = [
+...  (1, 2, 3)
+... ]
+
+>>> matrix_divided(matrix, 2)
+Traceback (most recent call last):
+      ...
+TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+BASE_MATRIX7
+---------------------------------------------
+>>> matrix = [
+...     [1, 2, 3],
+...     [4, 5, 6]
+... ]
+
+>>> matrix_divided(matrix, None)
+Traceback (most recent call last):
+      ...
+TypeError: div must be a number
+
+>>> matrix_divided(matrix, True)
+Traceback (most recent call last):
+      ...
+TypeError: div must be a number
+
+>>> matrix_divided([[1, 2, 3]], {1: "lol"})
+Traceback (most recent call last):
+      ...
+TypeError: div must be a number
+ 
+EMPTY MATRIX
+---------------------------------------------
+>>> matrix = [[]]
+
+>>> matrix_divided(matrix, 2)
+Traceback (most recent call last):
+      ...
+TypeError: matrix must be a matrix (list of lists) of integers/floats
+ 
+Non-Int or Float Matrix
+-----------------------
+>>> matrix = [
+...  [1, 2, 3,],
+...  [3, 4, "A"]
+... ]
+
+>>> matrix_divided(matrix, 2)
+Traceback (most recent call last):
+      ...
+TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+>>> matrix = [
+...  [1, 2, 3,],
+...  [3, 4, ('tup', 2)]
+... ]
+
+>>> matrix_divided(matrix, 2)
+Traceback (most recent call last):
+      ...
+TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+>>> matrix = [
+...  [1, 2, 3,],
+...  [3, 4, [1, 2, 3]]
+... ]
+
+>>> matrix_divided(matrix, 2)
+Traceback (most recent call last):
+      ...
+TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+>>> matrix = [
+...  [1, 2, 3,],
+...  [3, 4, {1: "you"}]
+... ]
+
+>>> matrix_divided(matrix, 2)
+Traceback (most recent call last):
+      ...
+TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+>>> matrix = [
+...  [1, 2, 3],
+...  [2, 3, 4, 5]
+... ]
+
+>>> matrix_divided(matrix, 2)
+Traceback (most recent call last):
+      ...
+TypeError: Each row of the matrix must have the same size
