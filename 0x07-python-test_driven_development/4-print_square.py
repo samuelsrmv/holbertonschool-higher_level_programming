@@ -1,15 +1,17 @@
 #!/usr/bin/python3
-""" Function thah say your name """
+"""
+    prints a square with the character '#'
+    execute: python3 -m doctest -v ./tests/4-print_square.txt
+"""
 
 
-def say_my_name(first_name, last_name=""):
+def print_square(size):
     """
-    Says your name
-    First ans last name must be string, otherwise will send raise a TypeError
-    execute: python3 -m doctest -v ./tests/3-say_my_name.txt
+    prints a square
     """
-    if type(first_name) != str:
-        raise TypeError("first_name must be a string")
-    if type(last_name) != str:
-        raise TypeError("last_name must be a string")
-    print("My name is {:s} {:s}".format(first_name, last_name))
+    if type(size) is not int:
+        raise TypeError("size must be an integer")
+    if size < 0:
+        raise TypeError("size must be >= 0")
+    for x in range(size):
+        print("#" * size)
