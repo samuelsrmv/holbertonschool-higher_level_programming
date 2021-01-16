@@ -3,6 +3,7 @@ The 2-matrix_divided module
 This is an example text file in StructuredText format.  First import matrix_divided from the 2-matrix_divided module:
 
 >>> matrix_divided = __import__('2-matrix_divided').matrix_divided
+ 
 Base_matrix1
 ---------------------------------------------
 >>> matrix = [
@@ -98,7 +99,7 @@ TypeError: div must be a number
 Traceback (most recent call last):
       ...
 TypeError: div must be a number
-
+ 
 EMPTY MATRIX
 ---------------------------------------------
 >>> matrix = [[]]
@@ -107,7 +108,7 @@ EMPTY MATRIX
 Traceback (most recent call last):
       ...
 TypeError: matrix must be a matrix (list of lists) of integers/floats
-
+ 
 Non-Int or Float Matrix
 -----------------------
 >>> matrix = [
