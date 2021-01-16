@@ -1,0 +1,40 @@
+The 5-text_indentation module
+======================
+This is an example text file in Structured Text format.  First import text_indentation from the 4-text_indentation module:
+
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+
+>>> text_string = "Quae animi affectio. Utinam quidem: dicerent alium alio?"
+
+>>> text_indentation(text_string)
+Quae animi affectio.
+<BLANKLINE>
+Utinam quidem:
+<BLANKLINE>
+dicerent alium alio?
+
+>>> text_indentation(567)
+Traceback (most recent call last):
+TypeError: text must be a string
+
+>>> text_indentation("      Holberton")
+Holberton
+
+>>> text_indentation("Schools           ")
+Schools
+
+>>> text_indentation("")
+
+>>> text_indentation("Holberton .?. Schools")
+Holberton .
+<BLANKLINE>
+?
+<BLANKLINE>
+.
+<BLANKLINE>
+Schools
+
+>>> text_indentation(".pp")
+.
+<BLANKLINE>
+pp
