@@ -6,4 +6,4 @@
 def inherits_from(obj, a_class):
     """does this object inherit fron class
     """
-    return isinstance(obj, a_class) and type(obj) is not a_classw
+    return isinstance(obj, a_class) and type(obj) is not a_class
