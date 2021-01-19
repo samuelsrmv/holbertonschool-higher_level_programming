@@ -1,0 +1,96 @@
+>>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+
+
+OK TEST
+-------------------------------
+>>> bg = BaseGeometry()
+>>> bg.integer_validator("my_int", 12)
+>>> bg.integer_validator("width", 89)
+
+
+str
+-------------------------------
+>>> bg.integer_validator("name", "John")
+Traceback (most recent call last):
+    ...
+TypeError: name must be an integer
+
+
+list
+-------------------------------
+>>> bg.integer_validator("name", [])
+Traceback (most recent call last):
+    ...
+TypeError: name must be an integer
+
+
+dic
+-------------------------------
+>>> bg.integer_validator("name", {})
+Traceback (most recent call last):
+    ...
+TypeError: name must be an integer
+
+
+tuple
+-------------------------------
+>>> bg.integer_validator("name", ())
+Traceback (most recent call last):
+    ...
+TypeError: name must be an integer
+
+
+float
+-------------------------------
+>>> bg.integer_validator("name", 0.1)
+Traceback (most recent call last):
+    ...
+TypeError: name must be an integer
+
+
+╠bool
+-------------------------------
+>>> bg.integer_validator("name", True)
+Traceback (most recent call last):
+    ...
+TypeError: name must be an integer
+
+
+None
+-------------------------------
+>>> bg.integer_validator("name", None)
+Traceback (most recent call last):
+    ...
+TypeError: name must be an integer
+
+
+not arguments passed
+-------------------------------
+>>> bg.integer_validator()
+Traceback (most recent call last):
+    ...
+TypeError: integer_validator() missing 2 required positional arguments: 'name' and 'value'
+
+
+
+
+module doc
+-------------------------------
+>>> print(len(__import__('7-base_geometry').__doc__) > 0)
+True
+
+
+class doc
+-------------------------------
+>>> print(len(__import__('7-base_geometry').BaseGeometry.__doc__) > 0)
+True
+
+-------------------------------
+function area doc
+>>> print(len(__import__('7-base_geometry').BaseGeometry.area.__doc__) > 0)
+True
+
+function integer_validator doc
+-------------------------------
+>>> print(len(__import__('7-base_geometry').BaseGeometry.integer_validator.__doc__) > 0)
+True
