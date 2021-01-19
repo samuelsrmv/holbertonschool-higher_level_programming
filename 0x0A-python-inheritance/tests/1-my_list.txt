@@ -1,0 +1,63 @@
+The 1-My list module
+======================
+import file:
+
+>>> MyList = __import__('1-my_list').MyList
+
+>>> Module = __import__('1-my_list').__doc__
+>>> Class = __import__('1-my_list').MyList.__doc__
+>>> Function = __import__('1-my_list').MyList.print_sorted.__doc__
+
+
+
+test empty list
+-----------------------------
+>>> my_list = MyList()
+>>> my_list.print_sorted()
+[]
+
+
+
+test three items
+-----------------------------
+>>> my_list.append(3)
+>>> my_list.append(21)
+>>> my_list.append(4)
+>>> print(my_list)
+[3, 21, 4]
+
+>>> my_list.print_sorted()
+[3, 4, 21]
+
+
+test negative items
+-----------------------------
+>>> my_list = MyList()
+>>> my_list.append(-3)
+>>> my_list.append(-21)
+>>> my_list.append(-4)
+>>> my_list.print_sorted()
+[-21, -4, -3]
+
+
+test negative and positives items
+---------------------------------------------
+>>> my_list = MyList()
+>>> my_list.append(3)
+>>> my_list.append(-21)
+>>> my_list.append(-4)
+>>> my_list.append(-3)
+>>> my_list.append(21)
+>>> my_list.append(4)
+>>> my_list.append(-7)
+>>> my_list.print_sorted()
+[-21, -7, -4, -3, 3, 4, 21]
+
+>>> print(len(Module) > 0)
+True
+
+>>> print(len(Class) > 0)
+True
+
+>>> print(len(Function) > 0)
+True
