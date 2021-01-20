@@ -1,13 +1,15 @@
 #!/usr/bin/python3
-"""save json file
-    """
+"""script to add all arguments to a list"""
 
+import sys
 
-import json
+save_to_json_file = __import__('7-save_to_json_file').save_to_json_file
 
+load_from_json_file = __import__('8-load_from_json_file').load_from_json_file
+try:
+    my_list = load_from_json_file('add_item.json')
+    my_list.extend(sys.argv[1:])
+    save_to_json_file(my_list, 'add_item.json')
 
-def save_to_json_file(my_obj, filename):
-    """write object to text file
-    """
-    with open(filename, mode="w") as data_file:
-        data_file.write(json.dumps(my_obj))
+except FileNotFoundError:
+    save_to_json_file(sys.argv[1:], 'add_item.json')
