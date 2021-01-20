@@ -1,33 +1,39 @@
 #!/usr/bin/python3
-"""module student"""
+"""pascal triangle"""
 
 
-class Student:
-    """class student"""
+def pascal_triangle(n):
+    """"module for print pascal triangle"""
+    """
+    if n < 0:
+        return []
+    elif n == 1:
+        return [1]
+    elif n == 2:
+        return [[1], [1, 1]]
+    """
+    array = []
 
-    def __init__(self, first_name, last_name, age):
-        """Initialize instance student
-        """
-        self.first_name = first_name
-        self.last_name = last_name
-        self.age = age
+    for x in range(1, n + 1):
+        array.append([1] * x)
 
-    def to_json(self, attrs=None):
-        """return a dictionary representation of instance student
-        """
-        is_list = True
-        if type(attrs) is not list:
-            is_list = False
-        else:
-            for i in attrs:
-                if type(i) is not str:
-                    is_list = False
+    for j in range(2, n):
+        row = array[j]
+        anterior = array[j - 1]
 
-        if not is_list:
-            return self.__dict__
-        else:
-            dicti = {}
-            for attr in attrs:
-                if attr in self.__dict__:
-                    dicti[attr] = self.__dict__.get(attr)
-            return dicti
+        for k in range(1, len(row) - 1):
+            row[k] = anterior[k - 1] + anterior[k]
+
+    return array
+
+
+"""
+    print(array)
+if __name__ == "__main__":
+    print(pascal_triangle(4))
+[1]
+[1, 1]
+[1, 2, 1]
+[1, 3, 3, 1]
+[1, 4, 6, 4, 1]
+"""
