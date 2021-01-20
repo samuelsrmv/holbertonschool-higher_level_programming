@@ -1,10 +1,12 @@
 #!/usr/bin/python3
-"""appends a string at the end of a text file
+"""module for json string
     """
 
 
-def append_write(filename="", text=""):
-    """appened string at end
+import json
+
+
+def from_json_string(my_str):
+    """returns an object (Python data structure) represented by a JSON
     """
-    with open(filename, mode="a") as data_file:
-        return data_file.write(text)
+    return json.loads(my_str)
