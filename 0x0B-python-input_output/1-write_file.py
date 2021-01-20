@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-"""module
+"""module to write file
     """
 
 
-def number_of_lines(filename=""):
-    """return
+def write_file(filename="", text=""):
+    """write file with text input
     """
-    with open(filename, "rt", encoding="UTF-8") as data_file:
-        return (len(list(data_file)))
+    with open(filename, "w", encoding="utf-8") as data_file:
+        return data_file.write(text)
