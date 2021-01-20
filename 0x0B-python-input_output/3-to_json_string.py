@@ -1,10 +1,12 @@
 #!/usr/bin/python3
-"""module to write file
+"""module for json string
     """
 
 
-def write_file(filename="", text=""):
-    """write file with text input
+import json
+
+
+def to_json_string(my_obj):
+    """ json representation of object
     """
-    with open(filename, "w", encoding="utf-8") as data_file:
-        return data_file.write(text)
+    return json.dumps(my_obj)
