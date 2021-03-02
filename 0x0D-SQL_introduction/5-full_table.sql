@@ -1,2 +1,2 @@
 -- prints the full description of the table
-SELECT TOP 0 * FROM first_table;
+select * FROM INFORMATION_SCHEMA.Columns where first_table = 'first_table';
