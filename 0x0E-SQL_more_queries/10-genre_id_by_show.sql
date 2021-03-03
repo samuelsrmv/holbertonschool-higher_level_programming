@@ -1,2 +1,2 @@
 -- Import the database dump
-SELECT tv_shows.title, tv_show_genres.genre_id FROM hbtn_0d_tvshows ORDER BY tv_shows.title , tv_show_genres.genre_id ASC;
+SELECT tv_shows.title, tv_show_genres.genre_id FROM tv_shows JOIN tv_show_genres ON tv_shows.title=tv_show_genres.genre_id ORDER BY tv_shows.title , tv_show_genres.genre_id ASC;
