@@ -5,5 +5,5 @@ if (process.argv.length <= 2) {
 } else if (process.argv[3] === undefined) {
   console.log(process.argv[2] + ' is ' + 'undefined');
 } else {
-  console.log('c is cool');
+  console.log(process.argv[2] + ' is ' + process.argv[3]);
 }
