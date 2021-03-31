@@ -5,13 +5,16 @@ import MySQLdb
 from sys import argv
 
 
-if __name__ == '__main__':
-    """COnect
+def filter_city():
+    """filter cities
     """
-    db = MySQLdb.connect('localhost', argv[1], argv[2], argv[3], port=3306)
+    db = MySQLdb.connect(host='localhost', port=3306, user=argv[1],
+                         passwd=argv[2], db=argv[3])
     cur = db.cursor()
 
-    cur.execute("SELECT cities.name FROM cities INNER JOIN states ON cities.state_id=states.id WHERE states.name='{}' ORDER BY name ASC".format(argv[4]))
+    cur.execute("SELECT cities.name FROM cities INNER JOIN states \
+                ON cities.state_id=states.id WHERE states.name='{}' \
+                ORDER BY name ASC".format(argv[4]))
     query_rows = cur.fetchall()
     list_data = []
     for row in query_rows:
@@ -19,3 +22,6 @@ if __name__ == '__main__':
     print(', '.join(list_data))
 
     db.close()
+
+if __name__ == '__main__':
+    filter_city()
