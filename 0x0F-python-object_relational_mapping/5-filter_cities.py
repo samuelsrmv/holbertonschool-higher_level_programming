@@ -14,7 +14,7 @@ def filter_city():
 
     cur.execute("SELECT cities.name FROM cities INNER JOIN states \
                 ON cities.state_id=states.id \
-                WHERE states.name=%s ORDER BY name ASC", (argv[4],))
+                WHERE states.name=%s ORDER BY cities.id ASC", (argv[4],))
     query_rows = cur.fetchall()
 
     list_data = []
@@ -24,7 +24,7 @@ def filter_city():
     print(', '.join(list_data))
 
     db.close()
-    cur.close()
+
 
 if __name__ == '__main__':
     filter_city()
