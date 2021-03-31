@@ -13,12 +13,14 @@ def filter_city():
     cur = db.cursor()
 
     cur.execute("SELECT cities.name FROM cities INNER JOIN states \
-                ON cities.state_id=states.id WHERE states.name=%s \
-                ORDER BY name ASC", (argv[4],))
+                ON cities.state_id=states.id \
+                WHERE states.name=%s ORDER BY name ASC", (argv[4],))
     query_rows = cur.fetchall()
+
     list_data = []
     for row in query_rows:
         list_data.append(row[0])
+
     print(', '.join(list_data))
 
     db.close()
