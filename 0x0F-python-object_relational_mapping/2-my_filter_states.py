@@ -16,7 +16,8 @@ def filter():
                 .format(argv[4]))
     query_rows = cur.fetchall()
     for row in query_rows:
-        print(row)
+        if row[1] == 'Arizona':
+            print(row) 
 
     db.close()
 
