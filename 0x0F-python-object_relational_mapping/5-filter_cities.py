@@ -24,6 +24,7 @@ def filter_city():
     print(', '.join(list_data))
 
     db.close()
+    cur.close()
 
 if __name__ == '__main__':
     filter_city()
