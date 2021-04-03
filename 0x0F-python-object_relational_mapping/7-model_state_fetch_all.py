@@ -24,5 +24,5 @@ def allstates():
     for state in session.query(State).order_by(State.id).all():
         print("{}: {}".format(state.id, state.name))
 
-    if __name__ == '__main__':
-        allstates()
+if __name__ == '__main__':
+    allstates()
