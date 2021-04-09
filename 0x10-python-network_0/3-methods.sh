@@ -1,3 +1,3 @@
 #!/bin/bash
 # displays all HTTP methods
-curl -I $1
+curl -sI $1
