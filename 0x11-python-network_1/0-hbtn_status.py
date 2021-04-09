@@ -1,5 +1,7 @@
 #!/usr/bin/python3
+"""what's my status"""
 import urllib.request
+
 
 def mystatus():
     """what's my status
