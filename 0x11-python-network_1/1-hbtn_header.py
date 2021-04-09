@@ -3,6 +3,7 @@
 import urllib.request
 import sys
 
+
 def myHeader(arg):
     """what's my status"""
     with urllib.request.urlopen(arg) as response:
