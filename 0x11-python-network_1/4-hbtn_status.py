@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """#4"""
 import requests
-import sys
 
 
 def myFirstRequest():
