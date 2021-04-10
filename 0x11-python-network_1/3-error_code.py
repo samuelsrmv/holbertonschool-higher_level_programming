@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 """#3"""
 import urllib.request
-import urllib.parse
-import urllib.request,urllib.parse,urllib.error
 import sys
 
 
