@@ -12,7 +12,7 @@ def myEmail(args, email):
     req = urllib.request.Request(args, data)
     with urllib.request.urlopen(req) as response:
         html = response.read()
-        print(html)
+        print("{}".format(html.decode('utf-8')))
 
 if __name__ == "__main__":
     myEmail(argv[1], argv[2])
