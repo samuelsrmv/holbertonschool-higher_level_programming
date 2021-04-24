@@ -1,5 +1,10 @@
-Python project
+<h1 align="center">Hi 👋, I'm Samuel Martinez</h1>
+<h3 align="center">A passionate frontend developer from Medellin</h3>
 
-We started working with Python, a high-level language, here is a little information about this language
+- 🔭 I’m currently working on [0x11. Python - Network #1](https://intranet.hbtn.io/projects/300)
 
-Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.
+
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
+
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=samuelsrmv&show_icons=true&locale=en" alt="samuelsrmv" /></p>
