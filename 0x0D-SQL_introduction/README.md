@@ -1,6 +1,6 @@
 # 0x0D. SQL - Introduction
 
-## Resources:books:
+## Resources :books::bulb::rocket:
 Read or watch:
 * [What is Database & SQL?](https://intranet.hbtn.io/rltoken/khEqMKp1PHvKpfO18d4fLQ)
 * [A Basic MySQL Tutorial](https://intranet.hbtn.io/rltoken/qrONF5FZPsRxRJ2FkLVPcg)
@@ -13,7 +13,7 @@ Read or watch:
 * [MySQL 5.7 SQL Statement Syntax](https://intranet.hbtn.io/rltoken/XrqR4oh6zsk0eOKoTgkA3Q)
 
 ---
-## Learning Objectives:bulb:
+## Learning Objectives :man_technologist:
 What you should learn from this project:
 
 * What’s a database
@@ -97,23 +97,7 @@ What you should learn from this project:
 ### [16. Say my name](./16-no_link.sql)
 * Write a script that lists all records of the table second_table of the database hbtn_0c_0 in your MySQL server.
 
-
-### [17. Go to UTF8](./100-move_to_utf8.sql)
-* Write a script that converts hbtn_0c_0 database to UTF8 (utf8mb4, collate utf8mb4_unicode_ci) in your MySQL server.
-
-
-### [18. Temperatures #0](./101-avg_temperatures.sql)
-* Import in hbtn_0c_0 database this table dump: download
-
-
-### [19. Temperatures #1](./102-top_city.sql)
-* Import in hbtn_0c_0 database this table dump: download (same as Temperatures #0)
-
-
-### [20. Temperatures #2](./103-max_state.sql)
-* Import in hbtn_0c_0 database this table dump: download (same as Temperatures #0)
-
 ---
 
-## Author
-* **Samuel Martinez** - [samuelsrmv](https://github.com/samuelsrmv)
+## Author :writing_hand:
+* **Samuel Martínez** - [samuelsrmv :octocat:](https://github.com/samuelsrmv)
