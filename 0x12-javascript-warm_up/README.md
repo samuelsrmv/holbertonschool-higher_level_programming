@@ -1,6 +1,6 @@
-# 0x12. Javascript - Warm up
+# 0x12. JavaScript - Warm up
 
-## Resources:books:
+## Resources :books::bulb::rocket:
 Read or watch:
 * [Writing JavaScript Code](https://intranet.hbtn.io/rltoken/OdMLtl6Y9mpQkaoEqJCRSg)
 * [Variables](https://intranet.hbtn.io/rltoken/iE6zaLw7pybp648IfRmk5Q)
@@ -13,18 +13,18 @@ Read or watch:
 * [Intrinsic Objects](https://intranet.hbtn.io/rltoken/osu583B5jskDVwmcm50-NQ)
 * [Module patterns](https://intranet.hbtn.io/rltoken/mduSK-WOoRe6WohU1p2zZQ)
 * [var, let and const](https://intranet.hbtn.io/rltoken/kNWuHjyUvjr74wU2hBqd_A)
-* [Javascript Tutorial](https://intranet.hbtn.io/rltoken/qkp1hdLiI8DJje88bxcL6w)
+* [JavaScript Tutorial](https://intranet.hbtn.io/rltoken/qkp1hdLiI8DJje88bxcL6w)
 * [Modern JS](https://intranet.hbtn.io/rltoken/ieSajamJQ-Nv3XzcS_d5lA)
 
 ---
-## Learning Objectives:bulb:
+## Learning Objectives :man_technologist:
 What you should learn from this project:
 
-* Why Javascript programming is amazing (don’t forget to tweet today, with the hashtag #javascriptisamazing :))
-* How to run a Javascript script
+* Why JavaScript programming is amazing
+* How to run a JavaScript script
 * How to create variables and constants
 * What are differences between var, const and let
-* What are all the data types available in Javascript
+* What are all the data types available in JavaScript
 * How to use the if, if ... else statements
 * How to use comments
 * How to affect values to variables
@@ -40,7 +40,7 @@ What you should learn from this project:
 ---
 
 ### [0. First constant, first print](./0-javascript_is_amazing.js)
-* Write a script that prints “Javascript is amazing”:
+* Write a script that prints “JavaScript is amazing”:
 
 
 ### [1. 3 languages](./1-multi_languages.js)
@@ -112,5 +112,5 @@ What you should learn from this project:
 
 ---
 
-## Author
-* **Samuel Martinez** - [samuelsrmv](https://github.com/samuelsrmv)
+## Author :writing_hand:
+* **Samuel Martínez** - [samuelsrmv :octocat:](https://github.com/samuelsrmv)
