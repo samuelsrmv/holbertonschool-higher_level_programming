@@ -1,6 +1,6 @@
 # 0x0A. Python - Inheritance
 
-## Resources:books:
+## Resources :books::bulb::rocket:
 Read or watch:
 * [Inheritance](https://intranet.hbtn.io/rltoken/E2Bs3bxX8GuSEKuWqswU7g)
 * [Multiple inheritance](https://intranet.hbtn.io/rltoken/auwnZOKkBZ97JaLtrMryuA)
@@ -8,10 +8,10 @@ Read or watch:
 * [Learn to Program 10 : Inheritance Magic Methods](https://intranet.hbtn.io/rltoken/F8LUzmvPI4yur1Z37ZM1fQ)
 
 ---
-## Learning Objectives:bulb:
+## Learning Objectives :man_technologist:
 What you should learn from this project:
 
-* Why Python programming is awesome (don’t forget to tweet today, with the hashtag #pythoniscool :))
+* Why Python programming is awesome 
 * What is a superclass, baseclass or parentclass
 * What is a subclass
 * How to list all attributes and methods of a class or instance
@@ -85,5 +85,5 @@ What you should learn from this project:
 
 ---
 
-## Author
-* **Samuel Martinez** - [samuelsrmv](https://github.com/samuelsrmv)
+## Author :writing_hand:
+* **Samuel Martínez** - [samuelsrmv :octocat:](https://github.com/samuelsrmv)
