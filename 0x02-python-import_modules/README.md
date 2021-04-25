@@ -1,17 +1,16 @@
 # 0x02. Python - import & modules
 
-## Resources:books:
+## Resources :books::bulb::rocket:
 Read or watch:
 * [Modules](https://intranet.hbtn.io/rltoken/hYag6ME71pOg2xkjqrLDdg)
 * [Command line arguments](https://intranet.hbtn.io/rltoken/CkqNLqqCuYsLbkCIVSKLWA)
 * [PEP 8 – Style Guide for Python Code](https://intranet.hbtn.io/rltoken/XWzCcj9tvlC2IYjdNDiNAg)
-* [Installing and using PEP 8](https://intranet.hbtn.io/rltoken/geb4vu-Z91dktiOapAdQSA)
 
 ---
-## Learning Objectives:bulb:
+## Learning Objectives :man_technologist:
 What you should learn from this project:
 
-* Why Python programming is awesome (don’t forget to tweet today, with the hashtag #pythoniscool :))
+* Why Python programming is awesome
 * How to import functions from another file
 * How to use imported functions
 * How to create a module
@@ -46,7 +45,7 @@ What you should learn from this project:
 
 
 ### [6. Build my own calculator!](./100-my_calculator.py)
-* Write a program that imports all functions from the file calculator_1.py and handles basics operations.
+* Write a program that imports all functions from the file calculator_1.py and handles basic operations.
 
 
 ### [7. Easy print](./101-easy_print.py)
@@ -60,5 +59,7 @@ What you should learn from this project:
 ### [9. Fast alphabet](./103-fast_alphabet.py)
 * Write a program that prints the alphabet in uppercase, followed by a new line.
 
-## Author
-* **Samuel Martinez** - [samuelsrmv](https://github.com/samuelsrmv)
+---
+
+## Author :writing_hand:
+* **Samuel Martínez** - [samuelsrmv :octocat:](https://github.com/samuelsrmv)
