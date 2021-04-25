@@ -1,16 +1,16 @@
 # 0x03. Python - Data Structures: Lists, Tuples
 
-## Resources:books:
+## Resources :books::bulb::rocket:
 Read or watch:
 * [3.1.3. Lists](https://intranet.hbtn.io/rltoken/zIxzk5ChUX6KzhJIxJjf9Q)
 * [Data structures](https://intranet.hbtn.io/rltoken/ugotLwGPHgU1raKqco8TFg)
 * [Learn to Program 6 : Lists](https://intranet.hbtn.io/rltoken/smot10KJXMP-a84UxJ7WrQ)
 
 ---
-## Learning Objectives:bulb:
+## Learning Objectives :man_technologist:
 What you should learn from this project:
 
-* Why Python programming is awesome (don’t forget to tweet today, with the hashtag #pythoniscool :))
+* Why Python programming is awesome
 * What are lists and how to use them
 * What are the differences and similarities between strings and lists
 * What are the most common methods of lists and how to use them
@@ -87,5 +87,5 @@ Since we now know a bit of C, we can look at what is happening under the hood of
 
 ---
 
-## Author
-* **Samuel Martinez** - [samuelsrmv](https://github.com/samuelsrmv)
+## Author :writing_hand:
+* **Samuel Martínez** - [samuelsrmv :octocat:](https://github.com/samuelsrmv)
