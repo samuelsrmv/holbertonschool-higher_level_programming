@@ -1,16 +1,16 @@
 # 0x04. Python - More Data Structures: Set, Dictionary
 
-## Resources:books:
+## Resources :books::bulb::rocket:
 Read or watch:
 * [Data structures](https://intranet.hbtn.io/rltoken/dnFegYagqFoW7WraIP-9RA)
 * [Lambda, filter, reduce and map](https://intranet.hbtn.io/rltoken/xXAlsMIs9-sCL4fljYeNfg)
 * [Learn to Program 12 Lambda Map Filter Reduce](https://intranet.hbtn.io/rltoken/AT-UtsGuhgIzQSwSdKvckw)
 
 ---
-## Learning Objectives:bulb:
+## Learning Objectives :man_technologist:
 What you should learn from this project:
 
-* Why Python programming is awesome (don’t forget to tweet today, with the hashtag #pythoniscool :))
+* Why Python programming is awesome
 * What are set and how to use them
 * What are the most common methods of set and how to use them
 * When to use sets versus lists
@@ -20,7 +20,7 @@ What you should learn from this project:
 * What is a key in a dictionary
 * How to iterate into a dictionary
 * What is a lambda function
-* What is map, reduce and map functions
+* What is map, reduce and filter functions
 
 ---
 
@@ -68,7 +68,7 @@ What you should learn from this project:
 * Write a function that returns a key with the biggest integer value.
 
 
-### [11. Multiply by using map](./11-mutiply_list_map.py)
+### [11. Multiply by using map](./11-multiply_list_map.py)
 * Write a function that returns a list with all values multiplied by a number without using any loops.
 
 
@@ -97,5 +97,5 @@ Python lists:
 
 ---
 
-## Author
-* **Samuel Martinez** - [samuelsrmv](https://github.com/samuelsrmv)
+## Author :writing_hand:
+* **Samuel Martínez** - [samuelsrmv :octocat:](https://github.com/samuelsrmv)
