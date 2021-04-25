@@ -1,6 +1,6 @@
 # 0x01. Python - if/else, loops, functions
 
-## Resources:books:
+## Resources :books::bulb::rocket:
 Read or watch:
 * [More Control Flow Tools](https://intranet.hbtn.io/rltoken/R7uTXYVOjUilq6rCjsQcFg)
 * [Myths about Indentation](https://intranet.hbtn.io/rltoken/Y-HaMMJBKPseiVDo_v9PVg)
@@ -9,13 +9,12 @@ Read or watch:
 * [Learn to Program](https://intranet.hbtn.io/rltoken/mlo-dauC8pSM_NrO5VYobw)
 * [Learn to Program 2 : Looping](https://intranet.hbtn.io/rltoken/mlo-dauC8pSM_NrO5VYobw)
 * [PEP 8 – Style Guide for Python Code](https://intranet.hbtn.io/rltoken/mq1IFaMhqpk2IHE0dC6UuQ)
-* [Install and usage](https://intranet.hbtn.io/rltoken/nzvAoWKw6zCTiWUPdkbXWw)
 
 ---
-## Learning Objectives:bulb:
+## Learning Objectives :man_technologist:
 What you should learn from this project:
 
-* Why Python programming is awesome (don’t forget to tweet today, with the hashtag #pythoniscool :))
+* Why Python programming is awesome
 * Why indentation is so important in Python
 * How to use the if, if ... else statements
 * How to use comments
@@ -89,5 +88,19 @@ What you should learn from this project:
 ### [13. Insert in sorted linked list](./13-insert_number.c)
 * Technical interview preparation: 
 
-## Author
-* **Samuel Martinez** - [samuelsrmv](https://github.com/samuelsrmv)
+
+### [14. Smile in the mirror](./100-print_tebahpla.py)
+* Write a program that prints the ASCII alphabet, in reverse order, alternating lowercase and uppercase (z in lowercase and Y in uppercase) , not followed by a new line.
+
+
+### [15. Remove at position](./101-remove_char_at.py)
+* Write a function that creates a copy of the string, removing the character at the position n (not the Python way, the “C array index”).
+
+
+### [16. ByteCode -> Python #2](./102-magic_calculation.py)
+* Write the Python function def magic_calculation(a, b, c): that does exactly the same as the following Python bytecode:
+
+---
+
+## Author :writing_hand:
+* **Samuel Martínez** - [samuelsrmv :octocat:](https://github.com/samuelsrmv)
