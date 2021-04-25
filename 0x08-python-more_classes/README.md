@@ -1,6 +1,6 @@
 # 0x08. Python - More Classes and Objects
 
-## Resources:books:
+## Resources :books::bulb::rocket:
 Read or watch:
 * [Object Oriented Programming](https://intranet.hbtn.io/rltoken/VlISluyXK-teEwwPCu2tlg)
 * [Object-Oriented Programming](https://intranet.hbtn.io/rltoken/m_oP4NCbKTp9tKptvxWP_g)
@@ -10,10 +10,10 @@ Read or watch:
 * [str vs repr](https://intranet.hbtn.io/rltoken/eYiDVsmlNHRZTrirAZ7Qtg)
 
 ---
-## Learning Objectives:bulb:
+## Learning Objectives :man_technologist:
 What you should learn from this project:
 
-* Why Python programming is awesome (don’t forget to tweet today, with the hashtag #pythoniscool :))
+* Why Python programming is awesome 
 * What is OOP
 * “first-class everything”
 * What is a class
@@ -88,5 +88,5 @@ What you should learn from this project:
 
 ---
 
-## Author
-* **Samuel Martinez** - [samuelsrmv](https://github.com/samuelsrmv)
+## Author :writing_hand:
+* **Samuel Martínez** - [samuelsrmv :octocat:](https://github.com/samuelsrmv)
