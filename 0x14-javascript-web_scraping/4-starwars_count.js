@@ -12,7 +12,7 @@ request(url, function (error, response, body) {
   const json_ = JSON.parse(body).results;
   for (const property of json_) {
     for (const property2 of property.characters) {
-      if (property2 === 'https://swapi-api.hbtn.io/api/people/18/') {
+      if (property2.includes('18')) {
         count += 1;
       }
     }
