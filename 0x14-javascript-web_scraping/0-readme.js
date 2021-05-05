@@ -6,5 +6,4 @@ fs.readFile(process.argv[2], 'utf8', function (err, data) {
     return console.log(err);
   }
   console.log(data);
-  console.log('\n');
 });
