@@ -11,7 +11,7 @@ request(url, function (error, response, body) {
   const dict = {};
   const json_ = JSON.parse(body);
   for (const property of json_) {
-    if (!(property.userId in dict) && property.completed === true) {
+    if (!(property.userId in dict)) {
       dict[property.userId] = 0;
     }
     if (property.completed === true) {
