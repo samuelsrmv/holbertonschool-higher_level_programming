@@ -15,7 +15,7 @@ request(url, function (error, response, body) {
         return console.log(er);
       }
       const name_ = JSON.parse(body).name;
-console.log(name_);
+      console.log(name_);
     }
     );
   }
